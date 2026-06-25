@@ -1,3 +1,9 @@
-# Oneil Hermez - Portfolio
+# Oneil Hermez Portfolio
 
-A simple static portfolio for GitHub Pages with images, videos, and short descriptions.
+Simple GitHub Pages portfolio with root-level images/videos for easier uploading.
+
+Updated with:
+- Arial font
+- Projects section after Selected work
+- Solar tracking/light meter project image
+- Froodit project note
