@@ -1,3 +1,3 @@
-# Oneil Hermez Portfolio
+# Oneil Hermez - Portfolio
 
-Simple GitHub Pages portfolio. All media files are intentionally in the root folder so they are easier to upload and link correctly.
+A simple static portfolio for GitHub Pages with images, videos, and short descriptions.

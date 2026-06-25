@@ -28,14 +28,6 @@ main {
   margin-bottom: 26px;
 }
 
-.eyebrow {
-  color: var(--coral-deep);
-  letter-spacing: .08em;
-  text-transform: uppercase;
-  font-size: .82rem;
-  font-weight: 700;
-  margin: 0 0 12px;
-}
 
 h1 {
   font-size: clamp(2.2rem, 7vw, 5.4rem);
@@ -73,12 +65,19 @@ p { margin: 0 0 12px; }
   box-shadow: 0 18px 45px rgba(92, 55, 38, .08);
 }
 
-.about {
+.about, .info {
   padding: clamp(22px, 4vw, 38px);
-  margin: 34px 0 58px;
 }
 
-.about p {
+.about {
+  margin: 34px 0 24px;
+}
+
+.info {
+  margin: 0 0 58px;
+}
+
+.about p, .info p {
   max-width: 880px;
   color: var(--muted);
   font-size: 1.03rem;
