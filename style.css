@@ -145,3 +145,78 @@ footer p {
   .project img,
   .project video { min-height: 240px; max-height: none; }
 }
+
+.image-flip-project {
+  align-items: stretch;
+}
+
+.image-flip {
+  position: relative;
+  min-height: 520px;
+  background: #f1e3db;
+  overflow: hidden;
+}
+
+.image-flip input {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.flip-panel {
+  display: none;
+  margin: 0;
+  height: 100%;
+}
+
+.flip-panel img {
+  width: 100%;
+  height: 420px;
+  min-height: 0;
+  max-height: none;
+  object-fit: contain;
+  background: #f7eee8;
+}
+
+.flip-panel figcaption {
+  padding: 16px 18px 74px;
+  color: var(--muted);
+  font-size: .95rem;
+  line-height: 1.45;
+  background: rgba(255, 255, 255, .76);
+}
+
+#solar-image-1:checked ~ .panel-1,
+#solar-image-2:checked ~ .panel-2 {
+  display: block;
+}
+
+.flip-controls {
+  position: absolute;
+  left: 18px;
+  bottom: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+.flip-controls label {
+  cursor: pointer;
+  border: 1px solid var(--line);
+  background: #fff8f3;
+  color: var(--ink);
+  border-radius: 999px;
+  padding: 7px 13px;
+  font-size: .9rem;
+}
+
+#solar-image-1:checked ~ .flip-controls label[for="solar-image-1"],
+#solar-image-2:checked ~ .flip-controls label[for="solar-image-2"] {
+  background: var(--coral);
+  border-color: var(--coral);
+  color: white;
+}
+
+@media (max-width: 800px) {
+  .image-flip { min-height: 0; }
+  .flip-panel img { height: auto; }
+}

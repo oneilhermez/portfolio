@@ -91,8 +91,26 @@
     <section class="projects-section">
       <h2>Projects</h2>
 
-      <article class="project">
-        <img src="solar-tracking-project.png" alt="Light meter circuit and solar tracking prototype with labeled LED, BPW, motor arm, DC motor, enclosure, and slip ring">
+      <article class="project image-flip-project">
+        <div class="image-flip" aria-label="Light meter project images">
+          <input type="radio" name="solar-image" id="solar-image-1" checked>
+          <input type="radio" name="solar-image" id="solar-image-2">
+
+          <figure class="flip-panel panel-1">
+            <img src="solar-tracking-project.png" alt="LED rotating around the BPW with labeled components and duty cycle examples">
+            <figcaption>Images of the LED rotating around the BPW at a constant distance of 1 cm as the duty cycle varies from zero to one and then returns to zero. The key components are labelled as well as the angle of the LED and its corresponding duty cycle.</figcaption>
+          </figure>
+
+          <figure class="flip-panel panel-2">
+            <img src="solar-tracking-circuit.png" alt="MG and integrated IV-tracer circuit with Arduino, driver board, filters, and voltage divider labelled">
+            <figcaption>MG and integrated IV-tracer circuit, implementing a 28BYJ-48 stepper motor, ULN 2003 driver board, Elegoo MEGA 2560 R3 Arduino, RC low pass filter with a capacitance of 10µF and a resistance of 10KΩ, as well as an LED resistor with a value of 100Ω, and a voltage divider with two 10kΩ, a 10uF capacitor, and a 0.1uF capacitor.</figcaption>
+          </figure>
+
+          <div class="flip-controls" aria-label="Switch light meter image">
+            <label for="solar-image-1">Image 1</label>
+            <label for="solar-image-2">Image 2</label>
+          </div>
+        </div>
         <div>
           <h3>Light Meter Circuit and Solar Tracking Prototype</h3>
           <p>A solar-tracking project built around a photodiode/light sensor circuit, LabVIEW control, Arduino PWM, and a 3D-printed mechanical setup. The goal was to track a light source and understand how positioning affects energy output.</p>
