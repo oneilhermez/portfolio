@@ -1,255 +1,90 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Oneil Hermez | Design, Modeling & Systems Thinking</title>
-  <meta name="description" content="Portfolio of Oneil Hermez: design, modeling, systems thinking, mechanical 3D work, energy-system-inspired projects, Photoshop visuals, and hands-on building." />
-  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Oneil Hermez — Design, Modeling & Systems Thinking</title>
+  <meta name="description" content="Portfolio of Oneil Hermez: design, modeling, mechanical systems, 3D work, and interactive experiences.">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
+  <main>
+    <header class="intro">
+      <p class="eyebrow">Oneil Hermez</p>
+      <h1>Design, Modeling & Systems Thinking</h1>
+      <p class="lead">Hello, my name is Oneil. I am in my 3rd year of Engineering Physics at Smith Engineering, and I enjoy building things across both physical and digital spaces.</p>
+    </header>
 
-  <header class="site-header" data-header>
-    <a class="brand" href="#top" aria-label="Oneil Hermez home">
-      <span class="brand-mark">oh</span>
-      <span class="brand-text">Oneil Hermez</span>
-    </a>
-
-    <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" data-nav-toggle>
-      <span></span>
-      <span></span>
-      <span></span>
-    </button>
-
-    <nav class="site-nav" data-nav>
-      <a href="#work">Work</a>
-      <a href="#process">Process</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main id="main">
-    <section class="hero" id="top">
-      <div class="hero-copy reveal">
-        <p class="eyebrow">Design, Modeling & Systems Thinking</p>
-        <h1>I like building things.</h1>
-        <p class="hero-lede">
-          I enjoy taking ideas from rough concepts to finished designs, whether I am working in Blender, editing visuals in Photoshop, or building something physical. I am especially drawn to mechanical forms, energy systems, nuclear systems, CANDU-inspired components, optimization, and the process of making complex designs feel clear.
-        </p>
-        <div class="hero-actions">
-          <a class="button primary" href="#work">View work</a>
-          <a class="button secondary" href="#process">How I work</a>
-        </div>
-      </div>
-
-      <figure class="hero-media reveal">
-        <img src="assets/images/candu-inspired-mechanical-system.png" alt="A large CANDU-inspired mechanical assembly with vessels, pipe networks, supports, and a reactor-like structure." />
-        <figcaption>
-          CANDU-inspired mechanical system study made in Blender.
-        </figcaption>
-      </figure>
+    <section class="about card">
+      <h2>About me</h2>
+      <p>I am interested in mechanical systems, user experiences, and game mechanics. I am a Virtual Reality Design Specialist supervised by Francesco Ambrogi, Mechanical and Materials Engineering Professor at Queen’s, with FEBUS and the Engineering Teaching and Learning Team.</p>
+      <p>In my free time, I work as an independent game developer. I like creating 3D animations, low-poly 3D models, clean interfaces, and intuitive experiences. I use Blender and Unity to build, test, improve, and present my work.</p>
     </section>
 
-    <section class="section warm-intro" id="about">
-      <div class="section-heading reveal">
-        <p class="eyebrow">About the work</p>
-        <h2>Mechanical ideas, built visually.</h2>
-        <p>
-          My projects usually start with curiosity: how a system is arranged, how parts connect, how a model can be simplified, and how the final design can still feel believable. I like the full path from concept to final design — blocking things out, solving the messy parts, cleaning up the model, and presenting it in a way that feels intentional.
-        </p>
-      </div>
-    </section>
+    <section class="work">
+      <h2>Selected work</h2>
 
-    <section class="section" id="work">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Selected work</p>
-        <h2>Energy-system-inspired models and visuals.</h2>
-        <p>
-          A small collection of mechanical studies, process clips, and presentation images based around reactor-like forms, turbine-generator layouts, tube assemblies, and radial component design.
-        </p>
-      </div>
-
-      <article class="project feature-project reveal">
-        <div class="project-media">
-          <img src="assets/images/candu-inspired-mechanical-system.png" alt="CANDU-inspired mechanical system with pipe networks, vertical cylinders, and a central reactor-like structure." />
-        </div>
-        <div class="project-copy">
-          <p class="project-number">01</p>
-          <h3>CANDU-Inspired Mechanical System</h3>
-          <p>
-            This was a larger Blender assembly where I explored reactor-like vessels, pipe routing, service structures, supports, and repeated mechanical forms. I wanted the model to feel complex without becoming impossible to read, so a lot of the work was about organizing the shapes and keeping the layout visually clear.
-          </p>
+      <article class="project">
+        <img src="candu-system.png" alt="CANDU-inspired mechanical system with pipe networks and vertical vessels">
+        <div>
+          <h3>CANDU-inspired mechanical system</h3>
+          <p>A larger mechanical assembly where I explored reactor-like vessels, pipe routing, support structures, and repeated industrial forms. I wanted the model to feel complex but still readable.</p>
         </div>
       </article>
 
-      <div class="project-grid">
-        <article class="project-card reveal">
-          <video controls preload="metadata" poster="assets/images/reactor-system-video-poster.jpg">
-            <source src="assets/videos/reactor-system-walkthrough.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div class="project-card-copy">
-            <p class="project-number">02</p>
-            <h3>Reactor Assembly Walkthrough</h3>
-            <p>
-              A process-style walkthrough of the larger mechanical scene. The clip shows the model from different angles and gives a better sense of how the parts, supports, pipes, and repeated components fit together.
-            </p>
-          </div>
-        </article>
+      <article class="project">
+        <video controls preload="metadata" poster="reactor-poster.jpg">
+          <source src="reactor-walkthrough.mp4" type="video/mp4">
+          Your browser does not support this video.
+        </video>
+        <div>
+          <h3>Reactor model walkthrough</h3>
+          <p>A process video showing the scale and layout of the mechanical reactor-inspired model. This is the kind of work I enjoy most: organizing many small parts into one believable system.</p>
+        </div>
+      </article>
 
-        <article class="project-card reveal">
-          <video controls preload="metadata" poster="assets/images/exploded-tube-video-poster.jpg">
-            <source src="assets/videos/exploded-tube-component-study.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div class="project-card-copy">
-            <p class="project-number">03</p>
-            <h3>Exploded Tube Component Study</h3>
-            <p>
-              A reactor-inspired tube and endcap study focused on repeated cylindrical forms, alignment, spacing, and exploded-view presentation. I used this to practice making a technical object feel understandable from the outside in.
-            </p>
-          </div>
-        </article>
+      <article class="project">
+        <img src="turbine-room.png" alt="Turbine-generator room model in Blender">
+        <div>
+          <h3>Turbine-generator room</h3>
+          <p>A cutaway-style mechanical room focused on layout, pipe paths, generator shapes, and industrial equipment. This piece was about making the space feel like a working energy system.</p>
+        </div>
+      </article>
 
-        <article class="project-card reveal">
-          <img src="assets/images/turbine-generator-room.png" alt="A cutaway turbine-generator room model with large cylinders, pipes, supports, and a turquoise generator component." loading="lazy" />
-          <div class="project-card-copy">
-            <p class="project-number">04</p>
-            <h3>Turbine-Generator Room Study</h3>
-            <p>
-              A cutaway-style mechanical room exploring the turbine-generator side of energy production. I focused on the placement of large equipment, pipe routing, casing forms, and making the room feel like a real arranged system.
-            </p>
-          </div>
-        </article>
+      <article class="project">
+        <video controls preload="metadata" poster="turbine-casing-poster.jpg">
+          <source src="turbine-casing.mp4" type="video/mp4">
+          Your browser does not support this video.
+        </video>
+        <div>
+          <h3>Turbine casing process</h3>
+          <p>A short Blender process clip showing a turbine-related component. I like this kind of modeling because it mixes simple shapes, mechanical reasoning, and iteration.</p>
+        </div>
+      </article>
 
-        <article class="project-card reveal">
-          <video controls preload="metadata" poster="assets/images/turbine-casing-video-poster.jpg">
-            <source src="assets/videos/turbine-casing-process.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-          <div class="project-card-copy">
-            <p class="project-number">05</p>
-            <h3>Turbine Casing Process Clip</h3>
-            <p>
-              A closer look at the turbine casing area during development. This clip shows the pipe routes, supports, and modular mechanical details before the scene is fully finalized.
-            </p>
-          </div>
-        </article>
+      <article class="project">
+        <video controls preload="metadata" poster="exploded-tube-poster.jpg">
+          <source src="exploded-tube.mp4" type="video/mp4">
+          Your browser does not support this video.
+        </video>
+        <div>
+          <h3>Exploded tube component</h3>
+          <p>A component study focused on spacing, form, and visual clarity. I use projects like this to think through how parts are arranged and how a design can be explained visually.</p>
+        </div>
+      </article>
 
-        <article class="project-card reveal">
-          <img src="assets/images/calandria-endcap-photoshop-composite.png" alt="Circular reactor-inspired endcap graphic with metallic tube distribution and bright radial rings made with Photoshop compositing." loading="lazy" />
-          <div class="project-card-copy">
-            <p class="project-number">06</p>
-            <h3>Calandria Endcap Graphic</h3>
-            <p>
-              A circular reactor-inspired visual made through 3D-rendered mechanical elements and Photoshop compositing. I used Photoshop to clean up the presentation, layer the endcap design, and make the radial tube layout feel more polished.
-            </p>
-          </div>
-        </article>
-      </div>
+      <article class="project">
+        <img src="calandria-endcap.png" alt="Circular calandria endcap graphic made with Photoshop compositing">
+        <div>
+          <h3>Calandria endcap graphic</h3>
+          <p>A reactor-inspired image made with Photoshop compositing. I built the visual around circular structure, repeated tubes, metallic surfaces, and a clean technical presentation.</p>
+        </div>
+      </article>
     </section>
 
-    <section class="section process-section" id="process">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Process</p>
-        <h2>From idea to finished design.</h2>
-        <p>
-          I like working through the whole design process instead of only focusing on the final image. The problem solving is usually the part I enjoy most.
-        </p>
-      </div>
-
-      <div class="timeline">
-        <div class="timeline-item reveal">
-          <span>01</span>
-          <h3>Understand the idea</h3>
-          <p>I start by looking at what the object or system is trying to communicate: the main shapes, the function, and the parts that need to feel important.</p>
-        </div>
-        <div class="timeline-item reveal">
-          <span>02</span>
-          <h3>Block it out</h3>
-          <p>I build the big forms first, test proportions, and organize the model before adding too much detail.</p>
-        </div>
-        <div class="timeline-item reveal">
-          <span>03</span>
-          <h3>Solve and refine</h3>
-          <p>This is where I adjust pipe routes, repeated parts, spacing, materials, scale, and clarity until the design starts to feel right.</p>
-        </div>
-        <div class="timeline-item reveal">
-          <span>04</span>
-          <h3>Clean up the final</h3>
-          <p>I optimize where I can, improve the lighting and composition, and use Photoshop when needed to make the final visual feel more finished.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section split-section">
-      <div class="panel reveal">
-        <p class="eyebrow">Physical builds</p>
-        <h2>Making things off-screen too.</h2>
-        <p>
-          My design interests also extend into physical systems, including electromechanical builds, sensors, timed lighting, structured testing, and documentation. I like when a project has both a creative side and a practical side.
-        </p>
-      </div>
-      <div class="panel reveal">
-        <p class="eyebrow">Interactive work</p>
-        <h2>A small side note.</h2>
-        <p>
-          I also create stylized assets for a personal interactive project. That work has helped me practice optimization, clear silhouettes, visual consistency, organized asset pipelines, and long-term iteration.
-        </p>
-      </div>
-    </section>
-
-    <section class="section skills-section">
-      <div class="section-heading reveal">
-        <p class="eyebrow">Tools</p>
-        <h2>What I use.</h2>
-      </div>
-
-      <div class="skills-grid">
-        <div class="skill-card reveal">
-          <h3>3D Modeling</h3>
-          <p>Blender, mechanical assemblies, pipe networks, UV unwrapping, materials, rendering, and optimization.</p>
-        </div>
-        <div class="skill-card reveal">
-          <h3>Design Tools</h3>
-          <p>SolidWorks, AutoCAD, concept development, mechanical layout, and structured technical documentation.</p>
-        </div>
-        <div class="skill-card reveal">
-          <h3>Photoshop</h3>
-          <p>Compositing, image cleanup, transparent graphics, presentation visuals, lighting adjustments, and final polish.</p>
-        </div>
-        <div class="skill-card reveal">
-          <h3>Spatial Thinking</h3>
-          <p>Experience thinking about scale, real-time viewing, and immersive 3D spaces through devices such as the Meta Quest 3.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="contact-section" id="contact">
-      <div class="contact-card reveal">
-        <p class="eyebrow">Contact</p>
-        <h2>Let’s build something thoughtful.</h2>
-        <p>
-          I am interested in design, mechanical systems, energy systems, 3D modeling, optimization, and creative problem solving.
-        </p>
-        <div class="contact-actions">
-          <a class="button primary" href="mailto:hermez_oneil@icloud.com">Email me</a>
-          <a class="button secondary" href="#top">Back to top</a>
-        </div>
-      </div>
-    </section>
+    <footer>
+      <p>Built around Blender, Unity, Photoshop, mechanical design, and curiosity.</p>
+    </footer>
   </main>
-
-  <footer class="site-footer">
-    <p>© <span data-year></span> Oneil Hermez</p>
-  </footer>
-
-  <script src="script.js"></script>
 </body>
 </html>
